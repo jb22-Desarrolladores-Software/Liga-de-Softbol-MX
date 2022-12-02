@@ -1,0 +1,212 @@
+
+.body{
+    background-color: antiquewhite; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.menu {
+    background-color: #000;
+    display: block;
+}
+
+.menu ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+
+.menu ul li{
+    display: inline-block;
+    
+
+}
+
+.menu ul li a{
+    color: white;
+    display: block;
+    padding: 20px 67.4px;
+    text-decoration: none;
+}
+
+.menu ul li a:hover{
+    background-color:  #42b881;
+}
+
+#caja{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    width: 150;
+    height: 150;
+}
+
+#caja img{
+    height: 150;
+    background-color: black;
+    display: block;
+}
+
+
+/*Estilos para la pantalla de login*/
+.login{
+    background:  antiquewhite;
+    background: linear-gradient(to right, #eec59c, antiquewhite);
+}
+
+.bg{
+    background-image: url(LigaDeSoftImagen.jpg);
+    background-position: center center;
+}
+
+
+.barra{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 0%;
+    height: 30%;
+
+    position: fixed;
+    transition: .1s all;
+    z-index: 3;
+}
+
+.barra ul{
+    padding: 0px;
+    text-align: center;
+}
+
+.barra li{
+    transition: .3s all;
+}
+
+.barra a{
+    text-decoration: none;
+    list-style: none;
+    /*transition: .2s all;*/
+    font-size: 0px;
+}
+
+.barra h2{
+    text-align: center;
+    color: white;
+    padding: 7px;
+    padding-bottom: 7px;
+    font-size: 0px;
+}
+
+.barra img{
+    padding-top: 30px;
+    padding-left: 10px;
+}
+
+.barra:hover{
+    width: 25%;
+    height: 43%;
+
+    background-color: rgba(5, 33, 51, 0.98);
+}
+
+.barra:hover h2{
+    padding: 15px;
+    font-size: 20px;
+}
+
+.barra:hover a{
+    font-size: 20px;
+    color: white;
+    display: block;
+    padding: 20px;
+}
+
+.barra:hover img{
+    height: 0px;
+}
+
+.barra:hover li{
+    border-top: 1px solid = d black;
+    width: 100%;
+}
+
+.barra:hover ul:last-of-type{
+    border-bottom: 1px solid black;
+}
+
+.barra:hover a:hover{
+    font-size: 25px;
+    padding: 16px 0px;
+    background-color: rgba(22, 78, 112, 0.98);
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Helvetica;
+}
+
+div#banner
+{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+
+}
+
+img#img_banner
+{
+    display: block;
+    margin: auto;
+    width: 20%;
+    max-width: 1200px;
+    min-width: 100px;
+    height: 120px;
+    background-color: black;
+}
+
+/* Estilos de la tabla de ranking*/
+
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin: auto;
+    font-size: 1.5rem;
+    padding: 50 px;
+}
+
+td{
+    padding: 1 rem;
+    border: 1.5px solid black;
+}
+
+thead{
+    background-color: #530000;
+    color: white;
+}
+
+tbody tr:nth-child(2n){
+    background-color: #BBA9BB ;
+
+}
+
+tbody tr:nth-child(2n + 1){
+    background-color: beige ;
+    
+}
+
+
+
+
+
+
+
+/*css para carrusel de fotos*/
+
+.carrusel{
+    width: 800px;
+    height: 400px;
+    margin: 0;
+    position: absolute;
+    top: 250px;
+    left: 280px;
+}
+
